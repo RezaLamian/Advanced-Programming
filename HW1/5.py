@@ -4,6 +4,7 @@ def function(dictionary1 , dictionary2):
         for key2 , value2 in dictionary2.items():
             if key1 == key2:
                 a[key1] = [value1 , value2]
+                break
             else:
                 a[key1] = [value1]
     return a
